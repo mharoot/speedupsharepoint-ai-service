@@ -1,0 +1,28 @@
+# Azure Functions
+azure-functions==1.19.0
+azure-identity==1.15.0
+
+# OpenAI (chat + embeddings)
+openai==1.10.0
+
+# Vector Search (Pinecone)
+pinecone-client==3.0.0
+
+# Azure SQL (ODBC driver)
+pyodbc==5.1.0
+
+# Redis Cache
+redis==5.0.1
+
+# Data validation
+pydantic==2.5.3
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Retry logic
+tenacity==8.2.3
+
+# Testing
+pytest==7.4.3
+faker==22.0.0

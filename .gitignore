@@ -1,0 +1,113 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# -----------------------------
+# Azure Functions
+# -----------------------------
+local.settings.json
+bin/
+obj/
+extensions.csproj
+funcignore
+
+# Azure Functions Core Tools artifacts
+.azurefunctions/
+.swa/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Test Outputs
+# -----------------------------
+coverage/
+htmlcov/
+.pytest_cache/
+test-results/
+*.coverage
+*.cover
+*.cov
+
+# -----------------------------
+# Project Data
+# -----------------------------
+data/*.json
+!data/closet-world_catalog.json
+!data/*.example.json
+
+# Saved AI outputs
+data/test_*.json
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Redis / Cache dumps
+# -----------------------------
+dump.rdb
+*.rdb
+*.aof
+
+# -----------------------------
+# Build / Packaging
+# -----------------------------
+dist/
+build/
+*.whl
+*.tar.gz
+
+# -----------------------------
+# Node (if SPA or tools exist)
+# -----------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.tmp
+*.bak
+*.swp
+*.swo

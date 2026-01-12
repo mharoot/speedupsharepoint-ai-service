@@ -1,0 +1,57 @@
+[
+  {
+    "catalog_item_id": "cat_001",
+    "tenant_id": "closet-world",
+    "sku": "CW-SHELF-16-36",
+    "name": "Wire Shelf 16\" x 36\"",
+    "description": "Ventilated wire shelf, 16 inches deep, 36 inches wide",
+    "base_price": 45.00,
+    "category": "closet_shelving",
+    "typical_quantity_range": "4-12",
+    "pairs_well_with": ["CW-ROD-36", "CW-BRACKET-16"]
+  },
+  {
+    "catalog_item_id": "cat_002",
+    "tenant_id": "closet-world",
+    "sku": "CW-ROD-36",
+    "name": "Hanging Rod 36\"",
+    "description": "Chrome hanging rod, 36 inches wide",
+    "base_price": 25.00,
+    "category": "closet_rods",
+    "typical_quantity_range": "2-6",
+    "pairs_well_with": ["CW-SHELF-16-36"]
+  },
+  {
+    "catalog_item_id": "cat_003",
+    "tenant_id": "closet-world",
+    "sku": "CW-DRAWER-3",
+    "name": "3-Drawer Tower",
+    "description": "Soft-close drawer unit, 3 drawers",
+    "base_price": 299.00,
+    "category": "closet_drawers",
+    "typical_quantity_range": "1-3",
+    "pairs_well_with": ["CW-SHELF-16-36"]
+  },
+  {
+    "catalog_item_id": "cat_004",
+    "tenant_id": "closet-world",
+    "sku": "CW-BRACKET-16",
+    "name": "Wall Bracket 16\"",
+    "description": "Heavy-duty wall bracket for 16\" deep shelves",
+    "base_price": 8.00,
+    "category": "closet_hardware",
+    "typical_quantity_range": "8-24",
+    "pairs_well_with": ["CW-SHELF-16-36"]
+  },
+  {
+    "catalog_item_id": "cat_005",
+    "tenant_id": "closet-world",
+    "sku": "CW-SHOE-RACK",
+    "name": "Slanted Shoe Rack",
+    "description": "Angled shoe rack, holds 12 pairs",
+    "base_price": 75.00,
+    "category": "closet_accessories",
+    "typical_quantity_range": "1-3",
+    "pairs_well_with": ["CW-SHELF-16-36", "CW-DRAWER-3"]
+  }
+]
